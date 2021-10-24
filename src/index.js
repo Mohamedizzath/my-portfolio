@@ -9,10 +9,10 @@ import "@fontsource/roboto-condensed";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ChakraProvider theme={custheme}>
-      <App />
-    </ChakraProvider>
-  </React.StrictMode>,
+      <ChakraProvider theme={custheme}>
+        <App />
+      </ChakraProvider>
+    </React.StrictMode>,
   document.getElementById('root')
 );
 
